@@ -1,6 +1,6 @@
 USE employee_tracker;
 
-INSERT INTO department (name)
+INSERT INTO department (department_name)
 VALUES
     ('design'),
     ('development'),
@@ -8,7 +8,7 @@ VALUES
 
  INSERT INTO role (title, salary, department_id)
  VALUES
-    ('editor', 50000, 3),
+    ('editor', 50000, 1),
     ('front-end', 50000, 2),
     ('writer', 50000, 3);
 
